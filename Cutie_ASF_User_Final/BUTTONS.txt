@@ -1,0 +1,25 @@
+TYPES OF BUTTONS
+<div class="btn_admin">
+    <a href="a_enlist_add.php">
+         <button style="width: 130px;">
+             ADD <i class="fas fa-paw"></i> 
+         </button>
+    </a>
+</div>
+
+									<div class="btn_admin">
+                                        <button id="enlist">
+                                            Edit  
+                                            <i class="fas fa-paw"></i> 
+                                        </button>
+                                    </div>
+
+
+
+<div class="btn_admin">
+                            <a href="a_enlist_add.php">
+                                <button style="width: 130px;">
+                                    ADD <i class="fas fa-paw"></i> 
+                                </button>
+                            </a>
+                        </div>

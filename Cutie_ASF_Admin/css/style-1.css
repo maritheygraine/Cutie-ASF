@@ -1,0 +1,132 @@
+.btn_cus button{
+    position: relative;
+    line-height: 29px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #630abb;
+    border: 2px solid #630abb;
+    border-top-right-radius: 0px;
+    top: 1px;
+    right: 15px;
+    padding: 22px 20px;
+    line-height: 0px;
+    margin: 0px;
+    box-shadow: 0px 5px 5px gray;
+    transition: .5s;
+
+}
+.btn_cus button:hover{
+    color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    transition: 0.5s;
+    background: none;
+    color: #630abb;
+}
+#cus{
+    float: left;
+    width: 15%;
+}
+#enlist{
+    font-size: 14px;
+    width: 85px;
+    padding: 20px 20px;
+    margin-right: 8%;
+    box-shadow: 0;
+}
+
+.btn_admin button{
+    position: relative;
+    line-height: 29px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #e7470c;
+    border: 2px solid #e7470c;
+    border-top-right-radius: 0px;
+    top: 1px;
+    right: 15px;
+    padding: 22px 20px;
+    line-height: 0px;
+    margin: 0px;
+    box-shadow: 0px 5px 5px gray;
+    transition: .5s;
+}
+.btn_admin button:hover{
+    color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    transition: 0.5s;
+    background: none;
+    color: #e7470c;
+}
+.btn_admin1 button{
+    position: relative;
+    line-height: 29px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #e7470c;
+    border: 2px solid #e7470c;
+    border-top-right-radius: 0px;
+    top: 1px;
+    right: 15px;
+    padding: 22px 20px;
+    line-height: 0px;
+    margin: 0px;
+    transition: .5s;
+}
+.btn_admin1 button:hover{
+    color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    transition: 0.5s;
+    background: none;
+    color: #e7470c;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.85);
+  z-index: 10000;
+}
+.popup {
+  width: 98%;
+  padding: 15px;
+  left: 0;
+  margin-left: 1%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+  position: absolute;
+  top: -100%;
+  box-shadow: 5px 5px 5px #000;
+  z-index: 10001;
+}
+@media (min-width: 768px) {
+  .popup {
+    width: 66.66666666%;
+    margin-left: 16.666666%;
+  }
+}
+@media (min-width: 992px) {
+  .popup {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .popup {
+    width: 33.33333%;
+    margin-left: 33.33333%;
+  }
+}
